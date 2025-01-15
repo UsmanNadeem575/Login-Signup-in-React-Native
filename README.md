@@ -4,6 +4,18 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
+## Step 0: Run below Commands before running this project
+```bash
+# Command 01
+npm install @react-navigation/native
+
+# Command 02
+npm install react-native-screens react-native-safe-area-context react-native-gesture-handler react-native-reanimated @react-native-masked-view/masked-view
+
+#Command 03
+npm install @react-navigation/stack
+```
+
 ## Step 1: Start the Metro Server
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
